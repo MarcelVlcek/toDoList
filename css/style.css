@@ -1,0 +1,82 @@
+body{
+    background-color: #FFC833;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.form-container{
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.task-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.task-form input{
+    border: none;             /* Odstráni štandardný okraj */
+    border-bottom: 1px solid black; /* Pridá len dolné podčiarknutie */
+    background: none;        /* Odstráni pozadie */
+    outline: none;           /* Odstráni obrys pri zaostrení */
+    width: 500px;
+    height: 45px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+}
+
+
+.task-form input::placeholder{
+    color: black;
+    text-align: center;
+    padding-left: 20px;
+    
+}
+
+
+.newLiStyle {
+   list-style-type: none;
+   margin: 10px;
+   color: khaki;
+   background-color: blueviolet;
+   width: 500px;
+   height: max-content;
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   align-items: center;
+   
+   
+ 
+   
+}
+
+.newLiStyle p {
+    margin:0 0 0 10px; 
+    padding: 10px 0;
+    flex-grow: 1; 
+    text-align: left; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 25px;
+
+}
+
+.remove-btn {
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    margin-right: 20px;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
